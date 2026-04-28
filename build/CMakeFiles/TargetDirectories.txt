@@ -1,0 +1,7 @@
+/workspaces/Candy/build/CMakeFiles/FruitBurst.dir
+/workspaces/Candy/build/CMakeFiles/edit_cache.dir
+/workspaces/Candy/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Candy/build/CMakeFiles/list_install_components.dir
+/workspaces/Candy/build/CMakeFiles/install.dir
+/workspaces/Candy/build/CMakeFiles/install/local.dir
+/workspaces/Candy/build/CMakeFiles/install/strip.dir

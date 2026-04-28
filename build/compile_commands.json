@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/main.cpp.o -c /workspaces/Candy/src/main.cpp",
+  "file": "/workspaces/Candy/src/main.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/game.cpp.o -c /workspaces/Candy/src/game.cpp",
+  "file": "/workspaces/Candy/src/game.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/game.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/board.cpp.o -c /workspaces/Candy/src/board.cpp",
+  "file": "/workspaces/Candy/src/board.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/board.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/tile.cpp.o -c /workspaces/Candy/src/tile.cpp",
+  "file": "/workspaces/Candy/src/tile.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/tile.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/input_handler.cpp.o -c /workspaces/Candy/src/input_handler.cpp",
+  "file": "/workspaces/Candy/src/input_handler.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/input_handler.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/particle_system.cpp.o -c /workspaces/Candy/src/particle_system.cpp",
+  "file": "/workspaces/Candy/src/particle_system.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/particle_system.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/ui.cpp.o -c /workspaces/Candy/src/ui.cpp",
+  "file": "/workspaces/Candy/src/ui.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/ui.cpp.o"
+},
+{
+  "directory": "/workspaces/Candy/build",
+  "command": "/usr/bin/c++ -DHEADLESS_MODE=1 -I/workspaces/Candy/include -std=gnu++17 -o CMakeFiles/FruitBurst.dir/src/sound_manager.cpp.o -c /workspaces/Candy/src/sound_manager.cpp",
+  "file": "/workspaces/Candy/src/sound_manager.cpp",
+  "output": "CMakeFiles/FruitBurst.dir/src/sound_manager.cpp.o"
+}
+]
