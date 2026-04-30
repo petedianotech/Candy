@@ -1,28 +1,4 @@
 #include "input_handler.h"
-<<<<<<< HEAD
-
-InputHandler::InputHandler() 
-    : mousePos({0, 0}), mouseClicked(false) {
-}
-
-InputHandler::~InputHandler() {
-}
-
-void InputHandler::update() {
-    mousePos = GetMousePosition();
-    mouseClicked = IsMouseButtonPressed(MOUSE_BUTTON_LEFT);
-    
-    if (onMouseClick && mouseClicked) {
-        onMouseClick(mousePos.x, mousePos.y);
-    }
-    
-    // Check for key presses
-    for (int key = 0; key < 512; ++key) {
-        if (IsKeyPressed(key)) {
-            if (onKeyPress) {
-                onKeyPress(key);
-            }
-=======
 #include "game.h"
 #include "config.h"
 
@@ -43,16 +19,10 @@ void InputHandler::handleMouseInput() {
     if (IsMouseButtonPressed(0)) { // Left mouse button
         if (mouseClickCallback) {
             mouseClickCallback(mouseX, mouseY);
->>>>>>> 23eafac (Add complete C++ Fruit Burst game with Android APK build setup)
         }
     }
 }
 
-<<<<<<< HEAD
-bool InputHandler::isKeyPressed(int key) const {
-    return IsKeyPressed(key);
-}
-=======
 void InputHandler::handleKeyboardInput() {
     if (IsKeyPressed(27)) { // Escape key
         if (game->getState() == GameState::PLAYING) {
@@ -68,4 +38,3 @@ void InputHandler::handleKeyboardInput() {
         }
     }
 }
->>>>>>> 23eafac (Add complete C++ Fruit Burst game with Android APK build setup)

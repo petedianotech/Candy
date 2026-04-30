@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 #ifndef UI_H
 #define UI_H
+=======
+#pragma once
+>>>>>>> 23eafac (Add complete C++ Fruit Burst game with Android APK build setup)
 
 #include "config.h"
 #include <string>
 
+<<<<<<< HEAD
 class UI {
 public:
     UI();
@@ -36,3 +41,29 @@ private:
 };
 
 #endif // UI_H
+=======
+class Game;
+
+class UI {
+public:
+    UI(Game* game);
+    ~UI();
+
+    void update(float deltaTime);
+    void render();
+
+    void showLevelComplete();
+    void showGameOver();
+    void showPauseMenu();
+
+private:
+    Game* game;
+
+    void drawScore();
+    void drawMoves();
+    void drawLevel();
+    void drawTimer();
+    void drawProgressBar(float progress, int x, int y, int width, int height);
+    void drawTextCentered(const std::string& text, int y, int fontSize, ColorA color);
+};
+>>>>>>> 23eafac (Add complete C++ Fruit Burst game with Android APK build setup)
