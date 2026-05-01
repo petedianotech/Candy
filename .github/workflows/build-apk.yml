@@ -37,29 +37,22 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: FruitBurst-APK
-        path: android/app/build/outputs/apk/release/app-release.apk
+        path: android/app/build/outputs/apk/release/app-release-unsigned.apk
 
     - name: Create Release
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      uses: actions/create-release@v1
-      id: create_release
+      uses: softprops/action-gh-release@v1
       with:
-        draft: false
-        prerelease: false
-        release_name: Release ${{ github.ref }}
-        tag_name: ${{ github.run_number }}
+        files: android/app/build/outputs/apk/release/app-release-unsigned.apk
+        tag_name: v${{ github.run_number }}
+        name: Fruit Burst APK Release ${{ github.run_number }}
         body: |
           Automated release of Fruit Burst Game APK
+          
+          **Download**: app-release-unsigned.apk (3.5 MB)
+          
+          Installation: Transfer to Android device and install via file manager or ADB
+        draft: false
+        prerelease: false
       env:
         GITHUB_TOKEN: ${{ github.token }}
-
-    - name: Upload Release Asset
-      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: android/app/build/outputs/apk/release/app-release.apk
-        asset_name: FruitBurst.apk
-        asset_content_type: application/vnd.android.package-archive
