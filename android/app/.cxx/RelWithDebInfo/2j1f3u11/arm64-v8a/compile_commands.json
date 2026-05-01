@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/main.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/main.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/main.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/game.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/game.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/game.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/board.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/board.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/board.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/tile.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/tile.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/tile.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/ui.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/ui.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/ui.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/input_handler.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/input_handler.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/input_handler.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/particle_system.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/particle_system.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/particle_system.cpp"
+},
+{
+  "directory": "/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a",
+  "command": "/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/opt/android-sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DFruitBurst_EXPORTS -I/workspaces/Candy/android/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -std=c++17 -o CMakeFiles/FruitBurst.dir/src/sound_manager.cpp.o -c /workspaces/Candy/android/app/src/main/cpp/src/sound_manager.cpp",
+  "file": "/workspaces/Candy/android/app/src/main/cpp/src/sound_manager.cpp"
+}
+]

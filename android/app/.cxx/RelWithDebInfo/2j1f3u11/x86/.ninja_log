@@ -1,0 +1,20 @@
+# ninja log v5
+2	86	1777634994750419069	CMakeFiles/FruitBurst.dir/src/tile.cpp.o	526e413d4b8e440c
+10	1057	1777634995709419032	CMakeFiles/FruitBurst.dir/src/input_handler.cpp.o	be4a2e4d88d51999
+0	1118	1777634995772419029	CMakeFiles/FruitBurst.dir/src/main.cpp.o	d7a27847209b7c40
+1	1294	1777634995938419023	CMakeFiles/FruitBurst.dir/src/game.cpp.o	8fd403b2a1845e9d
+86	1363	1777634996017419020	CMakeFiles/FruitBurst.dir/src/particle_system.cpp.o	d3af6dc0f691eb7b
+6	1542	1777634996200419013	CMakeFiles/FruitBurst.dir/src/ui.cpp.o	cf9544a0e7060846
+1	1617	1777634996274419010	CMakeFiles/FruitBurst.dir/src/board.cpp.o	8dad6e86e9b6eff9
+1076	1767	1777634996427419004	CMakeFiles/FruitBurst.dir/src/sound_manager.cpp.o	15ff7294fb3e7ad0
+1767	1807	1777634996470419002	lib/x86/libFruitBurst.so	e20ebe874aa85b7c
+0	3	0	clean	2d2f43cf2094d251
+10	114	1777635101855414924	CMakeFiles/FruitBurst.dir/src/tile.cpp.o	526e413d4b8e440c
+12	1080	1777635102824414887	CMakeFiles/FruitBurst.dir/src/input_handler.cpp.o	be4a2e4d88d51999
+114	1344	1777635103072414877	CMakeFiles/FruitBurst.dir/src/particle_system.cpp.o	d3af6dc0f691eb7b
+7	1434	1777635103176414873	CMakeFiles/FruitBurst.dir/src/main.cpp.o	d7a27847209b7c40
+7	1581	1777635103324414868	CMakeFiles/FruitBurst.dir/src/game.cpp.o	8fd403b2a1845e9d
+11	1705	1777635103451414863	CMakeFiles/FruitBurst.dir/src/ui.cpp.o	cf9544a0e7060846
+1080	1849	1777635103595414857	CMakeFiles/FruitBurst.dir/src/sound_manager.cpp.o	15ff7294fb3e7ad0
+8	1921	1777635103664414854	CMakeFiles/FruitBurst.dir/src/board.cpp.o	8dad6e86e9b6eff9
+1921	1961	1777635103710414853	lib/x86/libFruitBurst.so	e20ebe874aa85b7c

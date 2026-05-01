@@ -1,0 +1,3 @@
+/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a/CMakeFiles/FruitBurst.dir
+/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a/CMakeFiles/edit_cache.dir
+/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/arm64-v8a/CMakeFiles/rebuild_cache.dir

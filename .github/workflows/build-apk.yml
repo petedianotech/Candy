@@ -13,37 +13,24 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up JDK 11
+    - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
-        java-version: '11'
+        java-version: '17'
         distribution: 'temurin'
 
     - name: Set up Android SDK
       uses: android-actions/setup-android@v3
 
-    - name: Set up CMake
-      uses: jwlawson/actions-setup-cmake@v2
-      with:
-        cmake-version: '3.22.x'
-
-    - name: Create build directory
-      run: mkdir build
-
-    - name: Configure CMake for Android
+    - name: Install Gradle
       run: |
-        cd build
-        cmake .. \
-          -DCMAKE_SYSTEM_NAME=Android \
-          -DCMAKE_SYSTEM_VERSION=21 \
-          -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
-          -DCMAKE_ANDROID_NDK=$ANDROID_NDK_ROOT \
-          -DCMAKE_ANDROID_STL_TYPE=c++_static \
-          -DCMAKE_BUILD_TYPE=Release
+        sudo apt-get update
+        sudo apt-get install -y gradle
 
     - name: Build APK
       run: |
         cd android
+        chmod +x gradlew
         ./gradlew assembleRelease
 
     - name: Upload APK

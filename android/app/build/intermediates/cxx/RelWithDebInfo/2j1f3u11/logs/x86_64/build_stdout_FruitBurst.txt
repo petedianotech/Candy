@@ -1,0 +1,10 @@
+ninja: Entering directory `/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/x86_64'
+[1/9] Building CXX object CMakeFiles/FruitBurst.dir/src/tile.cpp.o
+[2/9] Building CXX object CMakeFiles/FruitBurst.dir/src/input_handler.cpp.o
+[3/9] Building CXX object CMakeFiles/FruitBurst.dir/src/main.cpp.o
+[4/9] Building CXX object CMakeFiles/FruitBurst.dir/src/particle_system.cpp.o
+[5/9] Building CXX object CMakeFiles/FruitBurst.dir/src/game.cpp.o
+[6/9] Building CXX object CMakeFiles/FruitBurst.dir/src/ui.cpp.o
+[7/9] Building CXX object CMakeFiles/FruitBurst.dir/src/board.cpp.o
+[8/9] Building CXX object CMakeFiles/FruitBurst.dir/src/sound_manager.cpp.o
+[9/9] Linking CXX shared library lib/x86_64/libFruitBurst.so

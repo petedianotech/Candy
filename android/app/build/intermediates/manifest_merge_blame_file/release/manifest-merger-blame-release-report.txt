@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fruitburst.game"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:6:5-74
+8        android:minSdkVersion="21"
+8-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:6:15-41
+9        android:targetSdkVersion="34" />
+9-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:6:42-71
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/0a47e19d86eabfeb1244e0b9792219bd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.fruitburst.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/0a47e19d86eabfeb1244e0b9792219bd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/0a47e19d86eabfeb1244e0b9792219bd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.fruitburst.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/0a47e19d86eabfeb1244e0b9792219bd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/0a47e19d86eabfeb1244e0b9792219bd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:8:5-30:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/0a47e19d86eabfeb1244e0b9792219bd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+19        android:extractNativeLibs="true"
+20        android:label="Fruit Burst" >
+20-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:9:9-36
+21        <activity
+21-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:11:9-28:20
+22            android:name="android.app.NativeActivity"
+22-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:12:13-54
+23            android:configChanges="orientation|keyboardHidden|screenSize"
+23-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:14:13-74
+24            android:exported="true"
+24-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:17:13-36
+25            android:label="Fruit Burst"
+25-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:13:13-40
+26            android:launchMode="singleTask"
+26-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:15:13-44
+27            android:screenOrientation="landscape" >
+27-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:16:13-50
+28            <meta-data
+28-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:19:13-21:46
+29                android:name="android.app.lib_name"
+29-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:20:17-52
+30                android:value="FruitBurst" />
+30-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:21:17-43
+31
+32            <intent-filter>
+32-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:23:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:24:17-69
+33-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:25:17-77
+35-->/workspaces/Candy/android/app/src/main/AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+41            android:authorities="com.fruitburst.game.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/4f6c057863702a7a72c36d89087f3037/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/bd7136c68b4aacf5fc91e0a061fb68c4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/bd7136c68b4aacf5fc91e0a061fb68c4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/bd7136c68b4aacf5fc91e0a061fb68c4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

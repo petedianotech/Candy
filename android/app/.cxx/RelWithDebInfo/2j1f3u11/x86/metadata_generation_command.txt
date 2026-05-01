@@ -1,0 +1,20 @@
+                        -H/workspaces/Candy/android/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/opt/android-sdk/ndk/26.1.10909125
+-DCMAKE_ANDROID_NDK=/opt/android-sdk/ndk/26.1.10909125
+-DCMAKE_TOOLCHAIN_FILE=/opt/android-sdk/ndk/26.1.10909125/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/opt/android-sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++17
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/workspaces/Candy/android/app/build/intermediates/cxx/RelWithDebInfo/2j1f3u11/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/workspaces/Candy/android/app/build/intermediates/cxx/RelWithDebInfo/2j1f3u11/obj/x86
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/workspaces/Candy/android/app/.cxx/RelWithDebInfo/2j1f3u11/x86
+-GNinja
+-DANDROID_STL=c++_static
+                        Build command args: []
+                        Version: 2

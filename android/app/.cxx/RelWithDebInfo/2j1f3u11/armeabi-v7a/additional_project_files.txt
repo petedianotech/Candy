@@ -1,0 +1,8 @@
+/workspaces/Candy/android/app/src/main/cpp/include/game.h
+/workspaces/Candy/android/app/src/main/cpp/include/board.h
+/workspaces/Candy/android/app/src/main/cpp/include/tile.h
+/workspaces/Candy/android/app/src/main/cpp/include/ui.h
+/workspaces/Candy/android/app/src/main/cpp/include/input_handler.h
+/workspaces/Candy/android/app/src/main/cpp/include/particle_system.h
+/workspaces/Candy/android/app/src/main/cpp/include/sound_manager.h
+/workspaces/Candy/android/app/src/main/cpp/include/config.h

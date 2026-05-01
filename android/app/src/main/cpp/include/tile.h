@@ -40,6 +40,7 @@ private:
     bool moving;
     bool selected;
 
+public:
     ColorA getFruitColor() const;
     const char* getFruitEmoji() const;
 };
